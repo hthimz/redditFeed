@@ -1,0 +1,23 @@
+<div class="parent">
+  <!-- {{content | json}} -->
+  <div class="child">
+        <div class="hero">
+          <div >
+            <div class="up"><i class="fas fa-arrow-circle-up"></i></div>
+            <div class="vote">{{content.data.ups}}</div>
+            <div class="down"><i class="fas fa-arrow-circle-down"></i></div>
+          </div>
+          
+          <div>
+            <div class="top">
+                  <div class="author">Posted by u/{{content.data.author}}</div>
+                  <div class="time"> .{{ content.data.created_utc | createdAt}}</div> 
+            </div>
+            <div class="title"> {{content.data.title}}</div>
+            <div class="url"> {{content.data.url}}</div>
+          </div> 
+        </div>
+  </div>
+  
+
+</div>
