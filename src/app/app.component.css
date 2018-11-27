@@ -3,4 +3,19 @@
     margin:0px;
     padding:0px;
     font-display: Rubik;
+    padding-top:30px;
+}
+.head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color:white;
+}
+.wrap{
+    display:flex;
+    /* background-color:white;  */
+}
+.sidebar{
+    color:white;
+    background-color:black;
 }

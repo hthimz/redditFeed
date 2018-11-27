@@ -1,7 +1,12 @@
-<div></div>
-<div class="main">
-  <app-feed-card *ngFor="let cards of feed" [content]="cards" >
-  </app-feed-card>
-</div>
+
+    <app-header></app-header>
+    <div class="wrap">
+        <div class="main">
+            <app-feed-card *ngFor="let cards of feed" [content]="cards" >
+            </app-feed-card>
+        </div> 
+        <!-- <app-sidebar class="sidebar"></app-sidebar>          -->
+    </div>
+
 
 
